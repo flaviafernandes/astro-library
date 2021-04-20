@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 50px;
+}
+
+header{
+    display: flex;
+    background-color: #B8C1EC;
+    height: 10vh;
+    align-items: center; 
+    width: 80;
+}
+
+h1 {
+    font-family: 'Maven Pro', monospace;
+}
+
+h2 {
+    color:#5252db;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin-top: 10px;
+}
+
+.cta {
+    font-family: 'Maven Pro', monospace;
+}
+
+.saturn-img, .nav-links, .my-charts {
+    display: flex;     
+}
+
+.title-saturn {
+    font-family: 'Maven Pro', monospace;
+    font-weight: 200; 
+    margin-left: 100px;
+    color: #FFFFFF;
+    flex: 1;
+}
+
+.saturn-img {
+    block-size: 40px;
+    flex: 1;
+}
+
+nav {
+    flex: 1;
+}
+
+.nav-links {
+    
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.nav-link, .my-charts {
+    color: #fffffe;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-style: medium;
+}
+
+a:hover{
+    color: #3132D4;
+}
+
+.presentation {
+    display: flex;
+    width: 90%;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.introduction {
+    flex: 1;
+    margin-left: 100px;
+}
+
+.intro-text h1 {
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right, #3132D4, rgb(204, 174, 230));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro-text p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #232946;
+}
+.cta {
+    padding: 50px 0px 100px 0px;
+}
+.cta-select {
+    border-radius: 10px;
+    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+    border: none;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #3132D4;
+    cursor: pointer;
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+} 
+
+button:hover {
+    background-color: #EEBBC3;
+    color: white;
+} 
+
+button:focus {
+    background-color: #D47F8C;
+}
+
+.cover {
+    flex: 1;
+    margin-left: 200px;
+}
+
+.home-chart {
+    height: 60vh;
+    filter: drop-shadow(0px 5px 3px black);
+    animation: drop 1.5s ease;
+}
+
+.t1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+hr.rounded {
+    margin-top: 10px;
+    border-top: 4px solid #B8C1EC;
+    border-radius: 5px;
+  }
+
+.planets {
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.expression {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.planet-icon {
+    display:flex
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+/*SEARCH STYLE*/
+
+form {
+    background-color: #4654e1;
+    width: 200px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+  }
+
+#search {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+.searching {
+    color: #fff;
+    fill: currentColor;
+    width: 40px;
+    height: 40px
+  }
